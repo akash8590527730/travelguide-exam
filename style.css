@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    width: 100%;
+}
+
+.header{
+   background: url(https://static.vecteezy.com/system/resources/thumbnails/029/502/493/small_2x/yellow-backpacked-adventurer-immerses-in-breathtaking-mountain-panoramas-ai-generated-photo.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   height: 100vh;
+}
+.travell {
+    font-size: 115px;
+    text-align: left;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.enquiry button{
+    
+    transform: translate(700px, 500px)
+}
+
+
+ .card img{
+    height: 60%;
+ }
+ .carousel img{
+    width: 100%;
+    height: 100%;
+ }
+ .carousel-caption h1{
+    font-size: 60px;
+ }
+ .carousel-caption{
+    font-size: 35px;
+ }
+
+      .img-grid {
+          overflow: hidden;
+          position: relative;
+          margin-bottom: 15px;
+      }
+      .img-grid img {
+          width: 100%;
+          height: auto;
+          display: block;
+          transition: transform 0.2s ease;
+      }
+      .img-grid:hover img {
+          transform: scale(1.1);
+      }
+      .img-large {
+          height: 300px;
+          object-fit: cover;
+      }
+      .img-medium {
+          height: 200px;
+          object-fit: cover;
+      }
+      .img-small {
+          height: 150px;
+          object-fit: cover;
+    }
+      .pack img{
+        transition: transform: 0.3s ease;
+    }
+    
+    .pack:hover img {
+        transform:scale(1.1);
+    }
+
+      .starr{
+        display: flex;
+        justify-content: space-around;
+        
+       
+      }
+      .fbody{
+        background-color: rgba(22, 22, 107, 0.941);
+     }
+     .fbody a{
+        text-decoration: none;
+     }
+   
